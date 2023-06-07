@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.traceId-card {
+  height: 60%;
+  width: 100%;
+  padding: 20px;
+}
+
+.pathLatencyContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* .latencyContainer {
+  border: 1px solid orange;
+  border-radius: 10px;
+} */
+
+.latancy {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 3rem;
+  text-align: center;
+}
+
+.latancyError {
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 10px;
+  width: 3rem;
+  text-align: center;
+}
