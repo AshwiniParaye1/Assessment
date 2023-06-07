@@ -31,6 +31,7 @@ Clone this repository to your local machine using the following command:
 
 ## Start the development server:
 * npm run dev or yarn dev
+
 This command will start the application and open it in your default web browser. If the browser does not open automatically, you can access the app at http://localhost:5173.
 
 
